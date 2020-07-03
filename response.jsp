@@ -14,6 +14,15 @@
          <li><p><b>Last  Name Entered:</b>
             <%= request.getParameter("last_name")%>
          </p></li>
+		 <li><p><b>Country Entered:</b>
+            <%= request.getParameter("country")%>
+         </p></li>
+		 <li><p><b>Mobile No Entered:</b>
+            <%= request.getParameter("mobile")%>
+         </p></li>
+		 <li><p><b>Gender Entered:</b>
+            <%= request.getParameter("gender")%>
+         </p></li>
       </ul>
    
    </body>
